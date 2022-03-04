@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>Xerrada Beranui</title>
+
+<script src="site_libs/header-attrs-2.11/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/united.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+
+
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+<style type="text/css">
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #adb5bd;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script type="text/javascript">
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.tab('show');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">My Website</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">Home</a>
+</li>
+<li>
+  <a href="about.html">About</a>
+</li>
+<li>
+  <a href="Xerrada-Beranui.html">Xerrada Beranui</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div id="header">
+
+
+
+<h1 class="title toc-ignore">Xerrada Beranui</h1>
+
+</div>
+
+
+<div id="xerrada-beranui" class="section level2">
+<h2>XERRADA BERANUI</h2>
+</div>
+<div id="procesos" class="section level1">
+<h1>1. PROCESOS</h1>
+<pre><code>PREPARACIÓN: Debemos limpiar y esterilizar las partes del equipo que
+vayamos a utilizar.
+
+MACERACIÓN: Es el proceso en el cual el almidón de los granos de malta
+se convierten en azúcares fermentables. Sumergimos los granos de malta en
+agua caliente y se produce un líquido dulce que llamamos &quot;mosto&quot;.
+
+LAVADO: Rociamos con agua la superficie del grano para extraer los azú-
+cares fermentables.
+
+EBULLICIÓN: Herviremos el mosto durante una hora, de esa manera es-
+terilizaremos el mosto y añadiremos los lúpulos para que nos proporcionen
+amargor, sabor y aroma.
+
+ENFRIAMIENTO: Enfriamos el mosto hasta la temperatura de de fermen-
+tación para poder añadir la levadura sin que se mueran las células.
+
+FERMENTACIÓN: Se introduce el mosto en un fermentador durante apro-
+ximadamente una semana, los azúcares del mosto se convertirán en alcohol.
+
+CEBADO Y TRASIEGO: Cuando ha fermentado añadimos el azúcar de ce-
+bado para condicionar la cerveza y añadir carbonatación. Deberemos trasegar
+la cerveza a un recipiente donde la almacenemos.
+
+ACONDICIONAMIENTO: Dependiendo del estilo y de la receta debere-
+mos dejarla cerveza un tiempo para que se clarifique y permita madurar los
+sabores.
+
+SERVIDO: La cerveza ya la tendremos lista para beber.</code></pre>
+</div>
+<div id="ingredientes" class="section level1">
+<h1>2. INGREDIENTES</h1>
+<div id="malta" class="section level2">
+<h2>MALTA</h2>
+<pre><code>La malta es un cereal que comienza a germinar y se detiene el proceso. Me-
+diante el malteado se producen enzimas que permitirán al almidón del cereal
+se convierta en azúcares fermentables.
+Principalmente cebada (avena) pero también trigo y centeno.
+El proceso básicamente es el siguiente:
+Se sumerge el cereal en agua con lo que comienza a germinar, cuando las
+raicillas han crecido se detiene el proceso secándolo con aire caliente y se</code></pre>
+<p>extraen las raicillas. Se tuesta, maltas muy poco tostadas tienen
+elevado po- der enzimático o diastático por lo que producirán grandes
+cantidades de azú- car al macerar, mientras que las maltas muy tostadas
+tendrán poco poder enzimático o diastático produciendo pocos azúcares
+por lo que se utilizarán principalmente para dar color, sabor y aroma a
+la cerveza.</p>
+</div>
+<div id="maltas-base" class="section level2">
+<h2>MALTAS BASE</h2>
+<ul>
+<li>Maltas base pálidas</li>
+<li>Maltas base tostadas más oscuras</li>
+<li>Maltas de trigo</li>
+<li>Maltas de centeno</li>
+</ul>
+<p>MALTAS ESPECIALES</p>
+<ul>
+<li>Maltas caramelo</li>
+<li>Maltas ámbar (Amber)</li>
+<li>Maltas tostadas</li>
+</ul>
+<p>EL COLOR.</p>
+<p>Hay tres escalas aceptadas mundialmente:</p>
+<ul>
+<li>La European Brewing Convention (EBC)</li>
+<li>La Standard Reference Method (SRM)</li>
+<li>Los grados Lovibond (oL)</li>
+</ul>
+<p>Los grados Lovibond son prácticamente iguales a los SRM, y éstos son
+el doble de los EBC. Van del 0 hasta 138 / 70, desde una Lager Pálida a
+una Imperial Stout.</p>
+<p>ADJUNTOS. Trigo torrefactado Espelta Arroz en copos Cebada tostada
+Avena en copos Maíz en copos Azúcar cande Miel Melaza</p>
+<p>LÚPULOS.</p>
+<p>El lúpulo es una planta trepadora cuyas flores femeninas con forma de
+piña se secan. El lúpulo que añadiremos al inicio de la ebullición nos
+servirá para producir amargor equilibrando el alcohol y añadiendo
+suavidad. Los lúpulos que añadimos en el final de la ebullición son los
+que proporcionarán aroma</p>
+<p>y sabor.</p>
+<p>Ácidos Alfa: Con propiedades antibacterianas aportarán amargor, se
+mide como un porcentaje y a más valor le corresponde más nivel de
+amargor. No son solubles al agua por lo que se deben de hervir y cuanto
+más tiempo lo hagan más ácidos alfa liberarán y, por tanto, más amargor.
+Ácidos Beta: Aportan aroma y no requieren ebullición.</p>
+</div>
+<div id="conservación-del-lúpulo." class="section level2">
+<h2>CONSERVACIÓN DEL LÚPULO.</h2>
+<p>El lúpulo seco con el aire y con la luz se deteriora rápidamente,
+para evitar- lo se deberán sellar herméticamente y congelar. Se
+utilizarán sin descongelar.</p>
+<p>LEVADURA. Existen más de 1500 tipos de levaduras aunque sólo utiliza-
+mos una para elaborar cerveza, laSaccharomyces cerevisiae. La levadura
+se alimenta de los azúcares y de los hidratos de carbono que es- tán
+presentes en el mosto y producen dióxido de carbono y etanol (alcohol)
+además de varios subproductos como principalmente ésteres, aceites de
+Fu- sel y diacetilo.</p>
+<ul>
+<li>Ésteres, aportan características importantes de sabor,
+principalmente sabores afrutados complejos. La cantidad dependerá de la
+temperatura de fermentación, a más temperatura, más ésteres.</li>
+<li>Aceites de Fusel son una mezcla de varios compuestos químicos. Dan
+notas picantes y especiadas. Depende de lo que se noten podrán ser un
+defecto.</li>
+<li>Diacetilo, también depende de lo que se aprecie podrá ser un
+defecto. Puede dar sabores de mantequilla y de caramelo. El sabor de
+diacetilo lo “limpian”las levaduras por lo que puede indicar una pobre
+fermenta- ción.</li>
+</ul>
+<p>LEVADURAS DE FERMENTACIÓN ALTA Y BAJA.</p>
+<ul>
+<li>Levaduras de fermentación alta: Temperaturas elevadas (16 y 24oC).
+Se utlizan para producir Ales. Producen muchos ésteres complejos por lo
+que las cervezas son tienen más aromas y sabores.</li>
+<li>Levaduras de fermentación baja: Temperaturas más bajas (7 y 15oC).
+Se utilizan para producir Lagers. Son cervezas con un sabor más lim- pio
+y neutro. Tienen menos ésteres y más diacetilo. Para eliminar el
+diacetilo los últimos días se aumenta la temperatura de
+fermentación.</li>
+</ul>
+<p>FLOCULACIÓN.</p>
+<pre><code>La floculación mide la facilidad de precipitación de la levadura en suspen-
+sión, lo cual afectará al aclarado de la cerveza, a mayor velocidad de flocu-
+lación, más aclarado.</code></pre>
+</div>
+<div id="atenuación." class="section level2">
+<h2>ATENUACIÓN.</h2>
+<pre><code>Es una medición que nos dará el valor de la eficiencia de la levadura en
+fermentar los azúcares disponibles. Se da como un porcentaje. Las que tienen
+valores altos de atenuación tienen bajas velocidades de floculación y al revés.
+REUTILIZACIÓN DE LEVADURAS.</code></pre>
+</div>
+<div id="agua." class="section level2">
+<h2>AGUA.</h2>
+<ul>
+<li>Aguas blandas, aguas con bajo contenido mineral, normalmente aguas
+que discurren por rocas. Nos servirán para elaborar cervezas pálidas (pH
+bajo)</li>
+<li>Aguas duras, aguas con un alto contenido mineral. Cervezas con más
+bicarbonatos y calcios, pH altos, para cervezas más densas tipo
+Stout.</li>
+</ul>
+<!-- -->
+<pre><code>El nivel de PH mide la acidez o la alcalinidad. El pH debe ser superior a 5,
+para que las maltas &quot;funcionen&quot;bien.</code></pre>
+</div>
+<div id="hierbas-flores-frutos-y-especias." class="section level2">
+<h2>HIERBAS, FLORES, FRUTOS Y ESPECIAS.</h2>
+<p>Semillas de cardamono Semillas de coriandro Anís estrellado Canela en
+rama Raiz de regaliz Vainas de vainilla Chile Bayas de enebro Rosa
+mosqueta Bayas de saúco Flores de saúco Hojas de lima kaffir Fresas
+Frambuesas Cerezas Piel de naranja Piel de limón y de lima Ápices de
+brezo MÉTODOS DE ELABORACIÓN Kit Extracto de malta Elaboración todo
+grano Elaboración todo grano con tres niveles. Método todo grano en
+bolsa (BIAB), no es tan eficiente en la extracción de los azúcares
+fermentables del cereal.</p>
+<pre><code>HIGIENE</code></pre>
+</div>
+</div>
+<div id="tipos-de-elaboración" class="section level1">
+<h1>3. TIPOS DE ELABORACIÓN</h1>
+<pre><code>KIT: La mejor manera de comenzar. La que menos material, conocimientos
+y dinero requiere. Por contra es la que menos podemos personalizar.
+
+EXTRACTO DE MALTA: Intermedio. Se puede combinar extracto de malta
+con algo de malta. Se añaden los lúpulos igual que en una todo grano.
+
+TODO GRANO:</code></pre>
+<ul>
+<li>Maceración: La temperatura ideal está entre los 65 y 68oC. El extre-
+mo superior produce menos azúcares fermentables, ideal para cervezas
+suaves y dulces, mientras que el extremo inferior produce más azúcares
+por lo que nos irá bien en cervezas secas y fuertes.</li>
+<li>Tipos de maceración: ◦ Por infusión simple: Se mantiene constante la
+temperatura. ◦ Por infusión escalonada: Se comienza a una baja
+temperatura, se aumenta y se mantiene un tiempo, y finalmente, se vuelve
+a au- mentar y mantener. Aumenta el rendimiento de la malta. ◦ Por
+maceración por decocción: Se mezcla a 35-40oC y se aumenta la
+temperatura de forma escalonada. Se retira una parte y se hierve una
+porción del macerado que luego se devuelve al principal. Se puede hacer
+una, dos o tres veces, macerado por decocción simple, doble o
+triple.</li>
+<li>Lavado:Enjuagaremos los azúcares fermentables del macerado y pasa-
+remos el mosto al hervidor. El agua del lavado debe estar entre 74 y 77
+oC. ◦ Lavado continuo. Rociamos el agua mientras extraemos la misma
+cantidad que depositamos en el hervidor. ◦ Lavado por etapas. Añadimos
+agua caliente a la maceración, re- movemos y dejamos 20 minutos en
+infusión, se drena y devuelve a la infusión. ◦ No lavado. Se pierde gran
+cantidad de azúcares.</li>
+<li>Ebullición. Nos servirá para poder esterilizar el mosto además de
+aña- dir el lúpulo lo cual añadirá, por los alfa-acidos sabor y
+aroma.</li>
+<li>Adicción de la levadura: ◦ Levadura seca: No se pasa con el tiempo
+si no está caducada. Hi- dratación de la levadura seca. ◦ Levadura
+líquida: No es aconsejable guardarla más de cuatro me- ses. Se ha de
+dejar dos días fermentando.</li>
+</ul>
+<!-- -->
+<pre><code>DRY HOPPING: Consiste en añadir lúpulo al fermentador pasados
+unos 4 días, en una bolsa. El sabor será más intenso pues no han mar-
+chado aromas con la primera fermentación ni con el calor de la ebu-
+llición. El alcohol matará las bacterias que pueda tener el lúpulo. A la
+semana se retira para evitar aromas no deseados.
+CLARIFICANTES: Sirven para clarificar la cerveza al aglomerar y en-
+viar al fondo las partículas en suspensión.
+◦ Protofloc
+◦ Issinglass(cola de pescado)
+◦ Irish Moss(Musgo de Irlanda)
+◦ Cold Crash</code></pre>
+<ul>
+<li>Fermentación: Se divide en tres fases:</li>
+</ul>
+<!-- -->
+<pre><code>◦ Primera fase, lag o adaptativa. Las células de levadura se multipli-
+can. Se forma elkrausen. No debería superar las 24 horas.
+◦ Segunda fase, primaria o atenuativa. La levadura fermenta los azú-
+cares del mosto y produce alcohol, dióxido de carbono y otros
+compuestos.
+◦ Fase secundaria o de acondicionamiento. La levadura elimina sub-
+productos no deseados, ésteres y diacetilo, obteniendo una cerveza
+pálida y de sabor limpio.
+OXÍGENO Y TEMPERATURA.
+En la faselages la única parte de la elaboración en la que es necesaria
+la presencia de oxígeno para que las células de levadura puedan multi-
+plicarse.
+Cada cepa de levadura deberá mantenerse entre las temperaturas ade-
+cuadas, las de temperaturas más bajas normalmente tienen sabores más
+limpios que las que fermentan a temperaturas más elevadas.
+CÁLCULO DEL APV.
+Diferencia entre DF y DO multiplicado por 105 y tenemos el porcenta-
+je de alcohol en peso, si volvemos a multiplicar por 1,25 tendremos el
+porcentaje de alcohol por volumen. (APV)</code></pre>
+<ul>
+<li><p>Cebado y trasiego. Las cervezas deberemos cebarlas con azúcar
+antes de embotellar o embarrilar. La cantidad de azúcar (de maiz o de
+caña), dextrosa, extracto de malta, dependerá del tipo de cerveza y
+buscare- mos un volumen de CO2 (Volumen de CO2 por volumen de cerveza).
+Van desde 1,5 a 3,75 las más carbonatadas. Durante el trasiego
+evitaremos salpicar para no introducir oxígeno. Las chapas son de 29 mm.
+y de 26 mm.</p></li>
+<li><p>Servido desde una botella. Temperatura entre 9 y 12oC, las Lagers
+más frías. Comenzamos a unos 45oy suavemente, levantamos el vaso para
+que se forme espuma y evitamos que caigan sedimentos.</p></li>
+<li><p>Etiquetado. Páginas web. Pegar con leche. Impresora
+láser.</p></li>
+</ul>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

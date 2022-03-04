@@ -1,0 +1,665 @@
+---
+author:
+- |
+  **Rafael Llanas Villanueva**\
+  rllanasv\@disroot.org\
+  **\"Cerveses La Serraspina\"**\
+  [Beranui]{.ul}\
+subtitle: " **v.1.1** "
+title: " **¿Cómo hacer cerveza en casa?** "
+---
+
+# Introducción
+
+::: {.block}
+Introducción:
+
+-   Compartir conocimiento como medio de avanzar.
+
+-   Valorizar la cerveza, trago largo versus trago corto.
+
+-   Seguiremos la línea básica de la elaboración en casa.
+
+-   Buenas cervezas versus cervezas buenas.
+
+-   Faig massa faltes d'ortografia si escric en català.
+:::
+
+
+# Ingredientes
+
+## Agua
+
+::: {.center}
+AGUA\
+![El agua](/Users/rafaelllanas/Desktop/GITHUB_WEB/beranuib.github.io/images/agua_2.jpg)
+:::
+
+
+-   Los parámetros a tener en cuenta a la hora de elaborar una cerveza
+    serán: Calcio, Magnesio, Sulfatos, Cloruro, Sodio y los Bicarbonatos
+    que nos indicarán la \"Dureza total\".
+
+-   También deberemos tener en cuenta el pH de nuestra agua y, si es el
+    caso, intentar adaptarlo para obtener un pH adecuado en el macerado
+    (5,3).
+
+-   Para tratarla deberemos utilizar ácidos y sales, la cantidad de las
+    cuales podremos obtener en calculadoras que encontraremos en
+    Internet.
+
+::: {.footnotesize}
+::: {.center}
+  **CIUDAD**   **TIPO**            **Bicarbonato**   **Sodio**   **Cloruro**   **Sulfatos**   **Calcio**   **Magnesio**
+  ------------ ------------------- ----------------- ----------- ------------- -------------- ------------ --------------
+  BURTON       *Pale Ale*          200               24          36            800            294          24
+  LONDRES      *Mild/Bitter Ale*   160               100         60            80             50           20
+  PILSEN       *Pilsen*            15                2           5             5              7            2
+  DUBLIN       *Stout/Porter*      200               12          19            55             115          4
+  MUNICH       *Lager alemana*     180               2           60            120            75           18
+  AMBERES      *Ale belga*         76                37          57            84             90           11
+:::
+:::
+
+
+DIFERENTES TIPOS DE AGUA PARA DIFERENTES ESTILOS
+
+::: {.center}
+![Diferentes tipos de agua](/Users/rafaelllanas/Desktop/GITHUB_WEB/beranuib.github.io/images/agua.pdf)
+:::
+
+::: {.center}
+![Diferentes tipos de agua](/Users/rafaelllanas/Desktop/GITHUB_WEB/beranuib.github.io/images/agua_1.pdf)
+:::
+
+## Malta
+
+::: {.center}
+![La malta](/Users/rafaelllanas/Desktop/GITHUB_WEB/beranuib.github.io/images/malta.jpg)
+:::
+
+Normalmente utilizaremos cebada porque tiene un alto
+contenido en enzimas que ayudarán a convertir las reservas energéticas
+del grano en azúcares fermentables. Existen de 2,4 ó 6 carreras aunque
+la más utilizada será la de dos carreras pues tiene menos proteínas y
+produce más azúcares fermentables. El malteado del cereal pasa por las
+siguientes etapas:\
+
+-   **Limpieza:** El grano pasa por un proceso de filtrado que servirá
+    para hacer una selección del mismo.
+
+-   **Mojado:** Los granos se sumerjen en agua para que comiencen a
+    germinar.
+
+-   **Germinación:** El grano germina y se crean las enzimas, que
+    destruyen los almidones, y las proteínas.
+
+-   **Horneado:** Se seca en el horno y se cortan las raicillas. Se ha
+    de dejar reposar un mes antes de utilizarlo.
+:::
+::: {.block}
+Maltas base:
+
+-   **Maltas base pálidas:** Pilsner, Pale Ale, Maris Otter.
+
+-   **Maltas base tostadas más oscuras:** Munich o Vienna.
+
+-   **Malta de trigo:** Produce azúcares fermentables y proteínas, las
+    cuales ayudan con la espuma y producen turbidez.
+
+-   **Malta de centeno:** Puede dar notas especiadas.
+:::
+
+::: {.block}
+Maltas especiales:
+
+-   **Maltas caramelo:** También conocidas como maltas Crystal. Dan
+    notas de miel, caramelo...
+
+-   **Maltas ámbar:** Sabor a galletas, añade un color ambar oscuro
+    necesario en ciertos estilos.
+
+-   **Malta tostadas:** Casi no tienen azucares, proporcionan colores,
+    sabores y aromas complejos.
+:::
+
+El color de una cerveza vendrá dado, básicamente, por
+el tipo de maltas utilizadas. En los editores de recetas nos indicará el
+color aproximado que tendrá la cerveza una vez elaborada.
+
+![Los colores de la cerveza](/Users/rafaelllanas/Desktop/GITHUB_WEB/beranuib.github.io/images/colores.png)
+
+## Lúpulo
+
+::: {.center}
+LÚPULO (Humulus lupulus)\
+![El lúpulo](/Users/rafaelllanas/Desktop/GITHUB_WEB/beranuib.github.io/images/lupulo.png)
+:::
+:::
+
+El lúpulo es el encargado de dar el amargor y parte
+de los sabores y aromas a la cerveza, asimismo la protege de
+contaminaciones por parte de bacterias lácticas, acéticas u otros tipo
+de microorganismo, al actuar como un antiséptico natural.\
+Las diferentes maneras en las que podemos utilizar el lúpulo son:\
+
+-   **Flor:** La flor del lúpulo desecada.
+
+-   **Pellet:** Lúpulo molido/machacado en polvo y luego capsulizado.
+
+-   **Plugs:** Lúpulo desecado y comprimido en tabletas.
+
+-   **Extractos de lúpulo:** Esencias o aceites aromáticos.
+
+¿¿¿CÓMO CALCULAR LOS IBUS DE UNA RECETA???\
+[Calculadora de IBU's](http://www.cerveceros-caseros.com/index.php/calculadora-acce/ibus)\
+
+::: {.block}
+LÚPULOS
+
+-   **Lúpulos americanos** son lúpulos americanos de la era artesanal
+    moderna con características cítricas, resinosas a hoja perennes o
+    similares.
+
+-   **Lúpulos del Viejo Mundo**, son los lúpulos del tipo Saaz pero
+    también británicos y variedades de Europa continental. Tienen notas
+    florales, especiadas, herbales o terrosas, generalmente menos
+    intensas que los del Nuevo Mundo.
+
+-   **Lúpulos del Nuevo Mundo**, provienen de Australia, Nueva
+    Zelanda...Tienen los mismos compuestos que los americanos, frutas
+    tropicales, frutas de carozo, uva blanca, etc.
+
+-   **Lúpulos tipo Saaz**, tambien llamados \"Lúpulos Nobles\", son los
+    mejores lúpulos de la Europa Continental, con carácteres florales,
+    especiados, o herbales, sin ser impetuosos o agresivos.
+:::
+
+## Levaduras
+
+::: {.center}
+![La levadura](/Users/rafaelllanas/Desktop/GITHUB_WEB/beranuib.github.io/images/levadura.png)
+
+Las levaduras principalmente se dividiran en **secas** o **líquidas**.
+
+::: {.block}
+Levaduras secas
+
+-   Más fáciles de utilizar. Se trata de esterilizar, abrir el sobre,
+    rehidratar si hace falta e inocular en el mosto.
+
+-   Son más baratas que las levaduras líquidas.
+
+-   Más fáciles de almacenar.
+:::
+
+::: {.block}
+Levaduras líquidas
+
+-   El número de células vivas depende de la fecha de elaboración, por
+    lo tanto puede que debamos elaborar un estarter.
+
+-   Nos permite crear nuestro banco de levaduras e ir ampliándolo si es
+    necesario.
+
+-   Permiten más consistencia en las elaboraciones.
+:::
+:::
+
+TIPOS DE LEVADURAS:
+
+::: {.block}
+SACCHAROMYCES
+
+-   Cerevisae, usada en cervezas del tipo Ale.
+
+-   Bayanus, saccahromyces del sector del vino, cava, etc...
+
+-   Pastorianus, usada en cervezas del tipo Lagers.
+
+-   Diastasicus, para cervezas tipo Saissons y demás cervezas que
+    necesiten unas DF muy bajas. Se comen la maltotriosa.
+:::
+
+::: {.block}
+NO-SACCHAROMYCES
+
+-   Brettanomyces. RIESGO DE CONTAMINACIÓN DE EQUIPOS. No hay riesgo
+    para la salud, pero es aconsejable usar equipos exclusivos.
+
+-   Bacterias: **lactobacillus**, bajan el pH y se consiguen en cervezas
+    'acidas y **pediococcus**, cervezas ácidas del tipo "lámbico"
+
+-   Levaduras salvajes o "salvajes domesticadas" como por ejemplo:
+    Torulaspora delbrueckii, Metschnokowia pulcherrima...
+
+# Procesos
+
+## Procesos
+
+![Proceso a seguir](/Users/rafaelllanas/Desktop/GITHUB_WEB/beranuib.github.io/images/prova.png)
+:::
+
+## Elección del Estilo
+
+Diferentes formas de elaboración:
+
+-   **Kit:** Al kit se añade agua hirviendo, se refrigera y se añade la
+    levadura.
+
+-   **Extracto de malta:** Se añaden cereales, o no, se hierve y añade
+    lúpulo, se refrigera y añadimos la levadura.
+
+-   **Todo grano:** Se siguen los procesos que explicaremos...
+
+Elección del estilo Deberemos tener claro qué estilo deseamos elaborar,
+teniendo claro que los ingredientes sean accesibles, que la receta esté
+a la medida de nuestras capacidades y, sobre todo, que nos guste. Para
+aprender más sobre los estilos es interesante conocer la guía de BJCP.\
+[Guía de BJCP](https://www.thebeertimes.com/wp-content/uploads/2017/08/2015_Guidelines_Beer_Espa%C3%B1ol-final.pdf)
+
+## Compra de ingredientes
+
+Para la compra de los ingredientes (o equipos) necesarios podremos
+dirigirnos a:
+
+-   **Tiendas físicas**, podremos tener un asesoramiento aunque
+    normalmente no disponen de tanta diversidad como las virtuales.
+    Muchas también permiten compras por Internet.
+
+-   **Tiendas virtuales** (en Internet), podremos escoger lo que
+    necesitemos aunque, como en las tiendas físicas, no siempre podamos
+    encontrar lo que buscamos en la misma tienda por lo que tendremos
+    que recurrir a tablas de equivalencias (maltas, lúpulos o
+    levaduras).
+
+    ::: {.center}
+    -   $\bullet$ [Masmalta](https://www.masmalta.com/es/)
+
+    -   $\bullet$ [El secreto de la
+        cerveza](https://elsecretodelacerveza.com/)
+
+    -   $\bullet$ [Cocinista](https://www.cocinista.es/)
+
+    -   $\bullet$ [Hacer cerveza](https://hacercerveza.com/)
+
+    -   $\bullet$ [La tienda del
+        cervecero](https://www.latiendadelcervecero.com/)
+    :::
+
+## Molienda
+
+El objetivo de moler la malta es prepararla para poder
+conseguir la máxima obtención de azúcares y demás sustancias solubles.\
+Teóricamente el grano debería aplastarse en lugar de romperse, lo cual
+es más fácil de conseguir con molinos de rodillos que con los del tipo
+"corona".\
+Es importante saber que podemos comprar la malta ya molida por un mínimo
+incremento de precio, con lo cual podemos evitar comprar el molinillo,
+pero entonces no será factible comprar sacos de 25 kg y moler la malta
+el día de antes.
+
+## Macerado
+
+La maceración será la etapa en que introduciremos el
+grano molido en agua caliente para que mediante la infusión se activen
+las enzimas que sean capaces de convertir la reserva de energía del
+grano, almidón, en azúcares fermentables.
+
+::: {.block}
+Tipos de maceración
+
+-   **Infusión simple:** La temperatura se mantiene constante durante
+    toda la maceración.
+
+-   **Maceración escalonada:** Se inicia a una temperatura baja y se va
+    incrementando. Aumentamos el rendimiento.
+
+-   **Maceración por decocción:** Se mezcla entre 35 y 40ºC y se va
+    aumentando, pero mientras tanto se va hirviendo una parte que
+    posteriormente se incorpora al macerado. Pueden hacerse varios
+    pasos.
+
+## Macerado
+
+El rango de temperaturas más habitual para macerar va
+de 65 a 68ºC y la duración es de 1 hora.
+
+::: {.block}
+Diferentes etapas o descansos en la maceración
+
+-   **Hidratación:** Entre 30 y 52ºC, servirá para bjar el pH de la
+    maceración.
+
+-   **Proteínica:** Sobre 45ºC, se forman aminoácidos y péptidos
+    simples.
+
+-   **Formación de azúcares:** Entre 55 y 65ºC, la $\beta$-amylasa crea
+    azúcares más pequeños y muy fermentables.
+
+-   **Formación de dextrinas:** Entre 67 y 72ºC, la $\alpha$-amylasa
+    crea azúcares más grandes y no tan fermentables.
+
+-   ***Mash-out*:** Entre 74 y 77ºC, nos servirá para la desactivar las
+    enzimas.
+
+## Lavado
+
+El rango de temperaturas más habitual para lavar va de 74 a 77ºC y se ha
+de hacer lentamente.
+
+::: {.block}
+Tipos de lavado
+
+-   **Lavado continuo:** Es el método más utilizado y el más eficiente.
+    Se rocía el grano con el agua de lavado.
+
+-   **Lavado por etapas:** Se añade agua caliente al macerador, se
+    remueve y esperamos 20 minutos para depués pasar al hervido.
+
+-   **Metodo de NO lavado:** Se trasvasa directamente al hervidor sin
+    hacer el lavado. Se pierden gran cantidad de azúcares.
+
+## Hervido
+
+-   El hervido debe ser lo más vigoroso posible y durar como mínimo
+    sesenta minutos y no se debe tapar la olla para facilitar que
+    desaparezcan los compuestos volátiles no deseados como el DMS
+    (verdura cocida).
+
+-   Antes de que llegue a hervir se puede añadir el lúpulo de primera
+    adicción (First Wort Hopping). Serán los principales "productores"
+    del amargor que tenga esa cerveza.
+
+-   Los lúpulos para dar sabor, sin que añadan mucho amargor, deberemos
+    echarlos cuando falten veinte minutos para acabar el hervido.
+
+-   Los lúpulos para dar aroma, y que no añadan amargor, deberemos
+    echarlos cuando falten cinco minutos para acabar el hervido.
+
+-   Diez minutos antes de acabar el hervido podemos añadir agentes
+    clarificantes (Irish Moss) o nutrientes de levadura.
+
+## Enfriado
+
+Cuando haya acabado el hervido deberemos enfriar el mosto lo más rápido
+posible para evitar contaminaciones.\
+Existen muchas maneras de enfriarlo...pero las más eficientes son:
+
+-   **Serpentines:** Se ha de esterilizar previamente metiéndolo en la
+    olla de hervido. Utilizad hielo en bloques para enfriar agua.
+
+-   **Serpentines contracorriente:** Circula mosto caliente en un
+    sentido y agua fría en otro.
+
+-   **Enfriadores de placas:** Circula el mosto y el agua fría por una
+    placas intercambiando calor.
+
+## Fermentación
+
+La fermentación es el proceso más importante de
+todos, es en él cuando se transformará el mosto que hemos elaborado en
+cerveza.
+
+-   Deberemos inocular la cantidad adecuada de levadura, demasiada puede
+    producir sabores no deseados y poca puede llevar a una fermentación
+    incompleta.
+
+-   Es importante oxigenar el mosto puesto que en la fase de
+    reproducción éstas necesitarán oxigeno. Es el único momento en que
+    se necesita, a posteriori siempre lo deberemos evitar para no oxidar
+    la cerveza.
+
+ACERCA DE LA DENSIDAD:
+
+-   **Grado de alcohol:** La diferencia de densidades nos indicará el
+    grado de alcohol de la cerveza de forma aproximada.
+
+-   **Densímetro:** Nos servirá para conocer la densidad del mosto.
+    Existen otros instrumentos como el refractómetro, o refractómetros
+    digitales.
+
+-   **Controladores de fermentación:** A modo de curiosidad saber que
+    existen dispositivos que se introducen en el fermentador y permiten
+    seguir la fermentación a distancia. Por ejemplo: Tilt, iSpindel,
+    etc...
+:::
+El fermentador deberá disponer de un grifo y un borboteador (airlock).
+     
+Necesitaremos conocer la densidad en varios momentos de la fementación.
+
+## Trasiego
+
+Cuando la fermentación ha acabado (han transcurrido dos días sin que
+varíe la densidad en el densímetro) podremos decir que el mosto se ha
+convertido en cerveza. Será el momento de sacarla del fermentador e
+introducirla en otro recipiente más adecuado. Básicamente puede tratar
+de...\
+
+-   **Botellas**, siempre oscuras para evitar "golpes de luz", sabores y
+    olores azufrados, a "pedo de mofeta".
+
+-   **Barriles**, los típicos que encontraremos en un bar asociados a un
+    tirador y una botella de $CO_2$ para empujar la cerveza.
+
+-   **Cornis**, ideales los de 9 l, los más comunes son de 19 l.
+    Necesitan disponer de $CO_2$ y un grifo.
+
+## Carbonatación
+
+Una vez embotellada la cerveza, ésta deberá
+fermentar por segunda vez pero ya dentro de la botella y sin posibilidad
+de que escape el $CO_2$ que se producirá en la fermentación secundaria.\
+Se puede utilizar para esta fermentación: Dextrosa, Azúcar o Extracto de
+Malta.\
+Hay que tener cuidado, una sobrecarbonatación puede hacer que las
+botellas exploten. No es un mito.\
+Para calcular la cantidad de "azúcar" que hay que añadir utilizaremos
+una calculadora de Internet, por ejemplo...\
+[Calculadora de Carbonatación](http://www.cerveceros-caseros.com/index.php/calculadora-acce/carbonatacion)\
+Existen diferentes métodos para añadir azúcares al mosto, se puede meter
+todo en el fermentador o individualmente en cada botella.\
+Los métodos de carbonatar barriles o cornis son diferentes...
+
+Práctica de carbonatación Ejemplo de cómo podemos llevar a la
+práctica el proceso.\
+Suponemos los siguientes datos: [image]{.image}\
+En un vaso de precipitación ponemos los gramos de dextrosa indicado y
+completamos hasta 500 ml de agua. Disolvemos la dextrosa y la llevamos a
+hervir unos dos o tres minutos. Mientras lavamos las botellas y las
+ponemos a escurrir.\
+
+::: {.footnotesize}
+$$\binom{151 g.l \longrightarrow 500 ml}{7,6 g  \longrightarrow  x} \Rightarrow x= \frac{500 ml * 7,6 {g}}{151{g}l} = 25,16 \frac{ml}{l}$$
+:::
+
+Por lo que si estamos embotellando en botellas de 33cl, deberemos
+introducir en cada una de ellas:\
+
+::: {.footnotesize}
+$$\frac{25,16 ml}{3} = 8,4 ml \hspace{1cm}$$
+:::
+
+Llenamos la botella, agitamos y chapamos.
+:::
+
+## Chapado
+     
+Para cerrar las botellas necesitaremos una chapadora y chapas, que pueden ser de 26mm o de 29mm si se trata de botellas de cava.
+     
+Es muy importante la limpieza de las botellas, para ello se pueden utilizar dispositivos específicos.
+:::
+
+## Etiquetado
+
+Debemos tener en cuenta que las etiquetas se deberán
+imprimir SIEMPRE en una impresora láser (no de chorro de tinta) y para
+pegarlas a la botella podemos utilizar leche entera.\
+![Ejemplo de etiqueta](/Users/rafaelllanas/Desktop/GITHUB_WEB/beranuib.github.io/images/etiqueta.png)
+
+## Cata
+
+Lo ideal es seguir una hoja de cata de las existentes en Internet. Mi
+recomendación sería cumplimentar la del BJCP.\
+[Hoja de Cata de BJCP](https://bjcp.org/intl/Exam-Scoresheet-ES.pdf)
+
+# Apéndices
+
+## Higiene
+
+::: {.frame}
+ApéndiceHigiene Primero, y antes que nada, deberemos limpiar con agua y
+jabón para depués desinfectar. Para ello tendremos:
+
+::: {.block}
+**Star San (Chemipro San):**
+
+-   Mayormente es ácido fosfórico, también utilizado para bajar el pH.
+
+-   Se debe dejar actuar durante un minuto.
+
+-   Debemos diluirlo tal como indica el fabricante
+
+-   No es necesario enjuagar.
+:::
+
+::: {.block}
+**Chemipro:**
+
+-   Se trata de percarbonato sódico.
+
+-   Una cucharada de café por cada litro de agua caliente.
+
+-   Debe actuar entre 2 y 5 minutos.
+
+-   Si se escurre bien no es necesario enjuagar.
+:::
+:::
+
+## Defectos en la cerveza
+
+::: {.multicols}
+**Acetaldehído**: Manzanas verdes frescas recién cortadas.
+
+-   Asegurar una fermentación vigorosa.
+
+-   Permitir una atenuación completa.
+
+-   Oxigenar el mosto plenamente.
+
+**Alcohólico / Caliente**: Especiado, vínoso, calidez por etanol y
+alcoholes superiores.
+
+-   Reduzca la temperatura de fermentación.
+
+-   Utilice una cepa de levadura menos atenuante.
+
+-   Compruebe la salud de la levadura.
+
+**Astringente:** Fruncimiento de labios, aspereza persistente en lengua.
+
+-   No sobrelavar.
+
+-   No moler demasiado el grano.
+
+-   No lavar con agua con un PH alto (sobre 6).
+
+**Diacetil**: Mantequilla, caramelo, palomitas de maíz (pop corn).
+
+-   Oxigene el mosto antes de la fermentación.
+
+-   Use levadura saludable en cantidad suficiente.
+
+-   Si es una cerveza lager, elevar la temperatura para reposar el
+    diacetilo al final de la fermentación.
+
+**DMS (Dimetil Sulfuro)**: Maíz cocido.
+
+-   Utilice un hervido largo, continuo y abierto.
+
+-   Reducir la cantidad de malta Pilsner.
+
+-   Enfriar rápidamente el mosto antes de lanzar la levadura.
+
+**Ésteres**: Frutal (fresa, pera, plátano, manzana, uva, cítricos).
+
+-   Reduzca la temperatura de fermentación.
+
+-   Oxigenar suficientemente el mosto.
+
+-   Compruebe si la variedad del lúpulo tiene características frutales.
+
+**Exposición a la luz**: Olor a zorrillo, a orina de gato.
+
+-   No exponga el mosto/cerveza a la luz del sol después de añadir el
+    lúpulo.
+
+-   No utilice botellas claras o de vidrio verde.
+
+-   Evitar el uso de lúpulo en cogollo en las adiciones finales.
+
+**Oxidado**: Rancio, a papel, a cartón.
+
+-   No salpique cuando trasvasije y embotelle..
+
+-   Purifique botellas/barriles con $CO_{2}$ antes del llenado.
+
+-   Consuma la cerveza cuando está fresca.
+
+**Fenólico**: Clavo, pimienta, vainilla, etc.
+
+-   Use una cepa diferente de levadura y/o variedad de lúpulo.
+
+-   Ajuste la T° de fermentación (mayor o menor dependiendo de la cepa
+    de levadura y el estilo de cerveza).
+
+**Sulfuro (Azufre)**: Huevos podridos, fósforos quemados, caucho
+quemado.
+
+-   Verifique infecciones.
+
+-   Controle el agua para sulfatos excesivos.
+
+-   Verifique la salud de la levadura.
+
+**Vinagre**: Ácido acético, acidez similar al vinagre.
+
+-   Verifique infecciones.
+
+-   Compruebe la cepa de levadura.
+
+-   Verifique fuentes de oxidación (las aceto-bacterias son aeróbicas)
+:::
+
+
+# Información adicional
+
+## Enlaces interesantes en castellano
+
+-   <http://www.cerveceros-caseros.com/>
+
+-   <https://homebrewer.es/>
+
+-   Guía BJCP
+    <https://www.thebeertimes.com/wp-content/uploads/2017/08/2015_Guidelines_Beer_Espa%C3%B1ol-final.pdf>
+
+-   <https://birrocracia.wordpress.com/>
+
+-   <https://cervezomicon.com/>
+
+-   Tabla de lúpulos
+    <https://www.cocinista.es/web/es/recetas/hacer-cerveza/trucos-y-consejos/caracteristicas-de-los-lupulos-y-sus-sustitutos.html>
+
+## Enlaces interesantes en inglés
+
+-   <https://community.grainfather.com/>\
+
+-   <https://www.brewersfriend.com/>\
+
+-   <http://www.milkthefunk.com/>\
+
+## Enlaces interesantes en catalán
+
+-   <http://eltiradordecervesa.blogspot.com/>\
+
+-   <http://cervesaencatala.blogspot.com/>\

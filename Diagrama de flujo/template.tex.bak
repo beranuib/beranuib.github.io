@@ -1,0 +1,86 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{tikz}
+\usetikzlibrary{positioning}
+\usetikzlibrary{shapes,arrows,arrows,positioning,fit}
+
+\begin{document}
+
+\begin{figure}
+ 	\tikzstyle{decision} = [diamond, draw, fill=blue!20, 
+ 	text width=5.5em, text badly centered, inner sep=0pt]
+ 	\tikzstyle{block} = [rectangle, draw, fill=blue!20, 
+ 	text width=10em, text centered, rounded corners, minimum height=2em]
+ 	\tikzstyle{line} = [draw, -latex']
+ 	\tikzstyle{cloud} = [draw, ellipse,fill=red!20,
+ 	minimum height=4em]
+ 	\tikzstyle{decisionn} = [diamond, draw, fill=red!20, 
+ 	text width=4em, text badly centered, node distance=4cm, inner sep=0pt]
+ 	\tikzstyle{blockk} = [rectangle, draw, fill=blue!20, 
+ 	text width=8em, text centered, rounded corners, minimum height=2em]
+ 	\tikzstyle{blockkk} = [rectangle, draw, fill=red!20, 
+ 	text width=6em, text centered, rounded corners, minimum height=2em]
+ 	
+ 	\begin{tikzpicture}[node distance = 2cm, auto]\label{ams1}
+ 	% Place nodes
+ 	\node [block] (init) {Mutual approach \& geometry of cam-roller};
+  	\node [block, below of=init] (identify) {Slicing technique};
+ 	\node [block, below of=identify] (Mr) {Guess initial film thickness};
+ 	\node [blockk, below left=1.5cm and -0.4cm of Mr] (Pr) {Asperity load};
+ 	\node [blockk, below right=1.5cm and -1.1cm of Mr] (Hr) {Lubricant load};
+ 	\node [decisionn, below left=1.25cm and 1.25cm of Hr] (de) {Ls};
+ 	\node [blockkk, right of=de, node distance=5.0cm] (upe) {Update film thickness};
+ 	\node [blockk, below left=1.5cm and -0.8cm of de,node distance=2.5cm] (Fr) {Friction (ASP)};
+ 	\node [blockk, below right=1.5cm and 1.0cm of de,node distance=2.5cm] (Fre) {Pressure \& film thickness};
+ 	\node [block, below right=2cm and 0cm of Fr] (Tr) {Friction (total)};
+ 	\node [blockk, right of=init, node distance=7.5cm] (intt) {Bulk temperature};
+ 	\node [coordinate, below right =1cm and 1cm of Fre] (rightt) {};  %% Coordinate on right and middle
+ 	\node [coordinate, left =1cm and 0.5cm of intt] (leftt) {};       %% Coordin
+ 	\node [blockk, below of=intt] (Reo) {Rheology, shear rate, shear stress, friction(lub)};
+ 	\node [blockk, below of=Reo] (Temprt) {Temperature algorithm};
+ 	\node [blockk, below of=Temprt] (Fric) {Friction(lub) \& average temperature};
+ 	\node [decisionn, below of=Fric, node distance=3cm] (decide) {Conver-\\gence?};
+ 	\node [blockkk, right of=Fric, node distance=3.4cm] (update) {Update Temperature};
+ 	\node [blockk, below of=decide, node distance=2.5cm] (sto) {Friction (LUB)};
+ 	%% Coordinate on right and middle
+ 	\node [coordinate, below right =1cm and -0.5cm of de] (righttt) {};
+    %% Coordin
+ 	\node [coordinate, below left =1cm and -0.5cm of de] (lefttt) {};    
+ 	%% Coordinate on middle
+ 	\node [coordinate, below of=Mr, node distance=1cm] (middle) {};
+    %% Coordinate on right and middle
+ 	\node [coordinate, below right =1cm and -0.5cm of Mr] (rightttt) {};  
+    %% Coordin
+ 	\node [coordinate, below left =1cm and -0.5cm of Mr] (leftttt) {}; 
+    %% Coordinate on middle
+ 	\node [coordinate, below of=intt, node distance=0.8cm] (middlee) {};
+ 	% Draw edges
+ 	\path [line] (init) -- (identify);
+ 	\path [line] (identify) -- (Mr);
+   %\path [line] (Mr.south) -- (Pr.north);
+   %\path [line] (Mr.south) -- (Hr.north);
+ 	\path [line] (Hr.south) -- node {} (de.north);
+ 	\path [line] (Pr) |- node {} (de);
+ 	\path [line] (de) -- node {no} (upe);
+ 	\path [line] (upe) |- (middle);
+ 	%\path [line] (de.south) -- (Fr.north);
+    %\path [line] (de.south) -- (Fre.north);
+ 	\path [line] (Fr.south) |- (Tr);
+ 	\path [draw,->] (Fre.south) |-(rightt)-|(leftt)-- (intt);
+ 	\path [line] (intt) -- (Reo);
+ 	\path [line] (Reo) -- (Temprt);
+ 	\path [line] (Temprt) -- (Fric);
+ 	\path [line] (Fric) -- (decide);
+ 	\path [line] (decide) -| node [near start] {no} (update);
+ 	\path [line] (update) |- (middlee);
+ 	\path [line] (decide) -- node {yes}(sto);
+ 	\path [draw,->] (sto.south) |-(Tr.east);
+ 	\path [draw,->] (de.south) |-(righttt)-|(Fr);
+ 	\path [draw,->] (de.south) |-(lefttt)-|(Fre);
+ 	\path [draw,->] (Mr.south) |-(rightttt)-|(Pr);
+ 	\path [draw,->] (Mr.south) |-(leftttt)-|(Hr);
+ 	\end{tikzpicture}
+ 	\caption{Flow chart for numerical solution procedure}
+ \end{figure}
+
+\end{document}

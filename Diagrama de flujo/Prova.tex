@@ -1,0 +1,51 @@
+\documentclass[10pt,spanish]{article}
+\usepackage{charter} % Use the Charter font as the main document font
+\usepackage[T1]{fontenc} % Use T1 font encoding
+\usepackage[spanish]{babel}
+\usepackage[applemac]{inputenc}
+\usepackage{tikz}
+\usetikzlibrary{positioning}
+\usetikzlibrary{shapes,arrows,arrows,positioning,fit}
+
+\begin{document}
+
+\begin{figure}
+ 
+ 	\tikzstyle{block} = [rectangle, draw, fill=brown!20, 
+ 	text width=10em, text centered, rounded corners, minimum height=2em]
+ 	\tikzstyle{line} = [draw, -latex']
+ 	\begin{tikzpicture}[node distance = 1cm, auto]\label{ams1}
+ 	% Place nodes
+ 	\node [block] (A) {Elecci—n del estilo};
+  	\node [block, below of=A] (B) {Compra ingredientes};
+ 	\node [block, below of=B] (C) {Molienda};
+ 	\node [block, below of=C] (D) {Macerado};
+ 	\node [block, below of=D] (E) {Lavado};
+ 	\node [block, below of=E] (F) {Hervido};
+ 	\node [block, right of=A, node distance=8cm] (G) {Enfriado};
+ 	\node [block, below of=G] (H) {Fermentaci—n};
+ 	\node [block, below of=H] (I) {Trasiego};
+ 	\node [block, below of=I] (J) {Carbonataci—n};
+ 	\node [block, below of=J] (K) {Chapado};
+ 	\node [block, below of=K] (L) {Etiquetado};
+ 	\node [block, below of=L] (M) {Cata};
+ 	\node [coordinate, below right =1cm and 1cm of F] (rightt) {};  %% Coordinate on right and middle
+ 	\node [coordinate, left =1cm and 2.5cm of G] (leftt) {};       %% Coordin
+ 	% Draw edges
+ 	\path [line] (A) -- (B);
+ 	\path [line] (B) -- (C);
+ 	\path [line] (C) -- (D);
+ 	\path [line] (D) -- (E);
+ 	\path [line] (E) -- (F);
+ 	\path [line] (F) |-(rightt)-|(leftt)-- (G);
+ 	%\path [line] (F) -- (G);
+ 	\path [line] (G) -- (H);
+ 	\path [line] (H) -- (I);
+ 	\path [line] (I) -- (J);
+ 	\path [line] (J) -- (K);
+ 	\path [line] (K) -- (L);
+ 	\path [line] (L) -- (M);
+ 	\end{tikzpicture}
+ \end{figure}
+
+\end{document}

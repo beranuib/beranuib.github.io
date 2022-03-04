@@ -3,3 +3,5 @@ title: "My Website"
 ---
 
 ## Esta es la página personal de Rafael Llanas
+
+Bueno...supongo que es aquí donde uno hace una breve explicación de lo quien es y de lo que ha hecho en la vida.
