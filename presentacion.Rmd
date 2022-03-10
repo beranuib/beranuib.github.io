@@ -7,11 +7,14 @@ author:
   [Beranui]{.ul}\
 subtitle: " **v.1.1** "
 title: " **¿Cómo hacer cerveza en casa?** "
+editor_options: 
+  markdown: 
+    wrap: 72
 ---
 
 # Introducción
 
-::: {.block}
+::: block
 Introducción:
 
 -   Compartir conocimiento como medio de avanzar.
@@ -25,20 +28,17 @@ Introducción:
 -   Faig massa faltes d'ortografia si escric en català.
 :::
 
-
 # Ingredientes
 
 ## Agua
 
-::: {.center}
-AGUA\
-![El agua](/Users/rafaelllanas/Desktop/GITHUB_WEB/beranuib.github.io/images/agua_2.jpg)
+::: center
+![El agua](/Users/rafaelllanas/Desktop/GITHUB_WEB/beranuib.github.io/images/agua.jpeg)
 :::
-
 
 -   Los parámetros a tener en cuenta a la hora de elaborar una cerveza
     serán: Calcio, Magnesio, Sulfatos, Cloruro, Sodio y los Bicarbonatos
-    que nos indicarán la \"Dureza total\".
+    que nos indicarán la "Dureza total".
 
 -   También deberemos tener en cuenta el pH de nuestra agua y, si es el
     caso, intentar adaptarlo para obtener un pH adecuado en el macerado
@@ -48,41 +48,43 @@ AGUA\
     cuales podremos obtener en calculadoras que encontraremos en
     Internet.
 
-::: {.footnotesize}
-::: {.center}
-  **CIUDAD**   **TIPO**            **Bicarbonato**   **Sodio**   **Cloruro**   **Sulfatos**   **Calcio**   **Magnesio**
-  ------------ ------------------- ----------------- ----------- ------------- -------------- ------------ --------------
-  BURTON       *Pale Ale*          200               24          36            800            294          24
-  LONDRES      *Mild/Bitter Ale*   160               100         60            80             50           20
-  PILSEN       *Pilsen*            15                2           5             5              7            2
-  DUBLIN       *Stout/Porter*      200               12          19            55             115          4
-  MUNICH       *Lager alemana*     180               2           60            120            75           18
-  AMBERES      *Ale belga*         76                37          57            84             90           11
+::: footnotesize
+::: center
+| **CIUDAD** | **TIPO**          | **Bicarbonato** | **Sodio** | **Cloruro** | **Sulfatos** | **Calcio** | **Magnesio** |
+|:-----------|:------------------|:----------------|:----------|:------------|:-------------|:-----------|:-------------|
+| BURTON     | *Pale Ale*        | 200             | 24        | 36          | 800          | 294        | 24           |
+| LONDRES    | *Mild/Bitter Ale* | 160             | 100       | 60          | 80           | 50         | 20           |
+| PILSEN     | *Pilsen*          | 15              | 2         | 5           | 5            | 7          | 2            |
+| DUBLIN     | *Stout/Porter*    | 200             | 12        | 19          | 55           | 115        | 4            |
+| MUNICH     | *Lager alemana*   | 180             | 2         | 60          | 120          | 75         | 18           |
+| AMBERES    | *Ale belga*       | 76              | 37        | 57          | 84           | 90         | 11           |
 :::
 :::
-
 
 DIFERENTES TIPOS DE AGUA PARA DIFERENTES ESTILOS
 
-::: {.center}
-![Diferentes tipos de agua](/Users/rafaelllanas/Desktop/GITHUB_WEB/beranuib.github.io/images/agua.pdf)
+::: center
+![Diferentes tipos de
+agua](/Users/rafaelllanas/Desktop/GITHUB_WEB/beranuib.github.io/images/agua.pdf)
 :::
 
-::: {.center}
-![Diferentes tipos de agua](/Users/rafaelllanas/Desktop/GITHUB_WEB/beranuib.github.io/images/agua_1.pdf)
+::: center
+![Diferentes tipos de
+agua](/Users/rafaelllanas/Desktop/GITHUB_WEB/beranuib.github.io/images/agua_1.pdf)
 :::
 
 ## Malta
 
-::: {.center}
-![La malta](/Users/rafaelllanas/Desktop/GITHUB_WEB/beranuib.github.io/images/malta.jpg)
+::: center
+![La
+malta](/Users/rafaelllanas/Desktop/GITHUB_WEB/beranuib.github.io/images/malta.jpeg)
 :::
 
-Normalmente utilizaremos cebada porque tiene un alto
-contenido en enzimas que ayudarán a convertir las reservas energéticas
-del grano en azúcares fermentables. Existen de 2,4 ó 6 carreras aunque
-la más utilizada será la de dos carreras pues tiene menos proteínas y
-produce más azúcares fermentables. El malteado del cereal pasa por las
+Normalmente utilizaremos cebada porque tiene un alto contenido en
+enzimas que ayudarán a convertir las reservas energéticas del grano en
+azúcares fermentables. Existen de 2,4 ó 6 carreras aunque la más
+utilizada será la de dos carreras pues tiene menos proteínas y produce
+más azúcares fermentables. El malteado del cereal pasa por las
 siguientes etapas:\
 
 -   **Limpieza:** El grano pasa por un proceso de filtrado que servirá
@@ -95,10 +97,8 @@ siguientes etapas:\
     destruyen los almidones, y las proteínas.
 
 -   **Horneado:** Se seca en el horno y se cortan las raicillas. Se ha
-    de dejar reposar un mes antes de utilizarlo.
-:::
-::: {.block}
-Maltas base:
+    de dejar reposar un mes antes de utilizarlo. ::: ::: {.block} Maltas
+    base:
 
 -   **Maltas base pálidas:** Pilsner, Pale Ale, Maris Otter.
 
@@ -107,10 +107,9 @@ Maltas base:
 -   **Malta de trigo:** Produce azúcares fermentables y proteínas, las
     cuales ayudan con la espuma y producen turbidez.
 
--   **Malta de centeno:** Puede dar notas especiadas.
-:::
+-   **Malta de centeno:** Puede dar notas especiadas. :::
 
-::: {.block}
+::: block
 Maltas especiales:
 
 -   **Maltas caramelo:** También conocidas como maltas Crystal. Dan
@@ -123,24 +122,27 @@ Maltas especiales:
     sabores y aromas complejos.
 :::
 
-El color de una cerveza vendrá dado, básicamente, por
-el tipo de maltas utilizadas. En los editores de recetas nos indicará el
-color aproximado que tendrá la cerveza una vez elaborada.
+El color de una cerveza vendrá dado, básicamente, por el tipo de maltas
+utilizadas. En los editores de recetas nos indicará el color aproximado
+que tendrá la cerveza una vez elaborada.
 
-![Los colores de la cerveza](/Users/rafaelllanas/Desktop/GITHUB_WEB/beranuib.github.io/images/colores.png)
+![Los colores de la
+cerveza](/Users/rafaelllanas/Desktop/GITHUB_WEB/beranuib.github.io/images/colores.png)
 
 ## Lúpulo
 
-::: {.center}
+::: center
 LÚPULO (Humulus lupulus)\
-![El lúpulo](/Users/rafaelllanas/Desktop/GITHUB_WEB/beranuib.github.io/images/lupulo.png)
-:::
+![El
+lúpulo](/Users/rafaelllanas/Desktop/GITHUB_WEB/beranuib.github.io/images/lupulo.jpg)
 :::
 
-El lúpulo es el encargado de dar el amargor y parte
-de los sabores y aromas a la cerveza, asimismo la protege de
-contaminaciones por parte de bacterias lácticas, acéticas u otros tipo
-de microorganismo, al actuar como un antiséptico natural.\
+:::
+
+El lúpulo es el encargado de dar el amargor y parte de los sabores y
+aromas a la cerveza, asimismo la protege de contaminaciones por parte de
+bacterias lácticas, acéticas u otros tipo de microorganismo, al actuar
+como un antiséptico natural.\
 Las diferentes maneras en las que podemos utilizar el lúpulo son:\
 
 -   **Flor:** La flor del lúpulo desecada.
@@ -152,9 +154,10 @@ Las diferentes maneras en las que podemos utilizar el lúpulo son:\
 -   **Extractos de lúpulo:** Esencias o aceites aromáticos.
 
 ¿¿¿CÓMO CALCULAR LOS IBUS DE UNA RECETA???\
-[Calculadora de IBU's](http://www.cerveceros-caseros.com/index.php/calculadora-acce/ibus)\
+[Calculadora de
+IBU's](http://www.cerveceros-caseros.com/index.php/calculadora-acce/ibus)\
 
-::: {.block}
+::: block
 LÚPULOS
 
 -   **Lúpulos americanos** son lúpulos americanos de la era artesanal
@@ -170,19 +173,20 @@ LÚPULOS
     Zelanda...Tienen los mismos compuestos que los americanos, frutas
     tropicales, frutas de carozo, uva blanca, etc.
 
--   **Lúpulos tipo Saaz**, tambien llamados \"Lúpulos Nobles\", son los
+-   **Lúpulos tipo Saaz**, tambien llamados "Lúpulos Nobles", son los
     mejores lúpulos de la Europa Continental, con carácteres florales,
     especiados, o herbales, sin ser impetuosos o agresivos.
 :::
 
 ## Levaduras
 
-::: {.center}
-![La levadura](/Users/rafaelllanas/Desktop/GITHUB_WEB/beranuib.github.io/images/levadura.png)
+::: center
+![La
+levadura](/Users/rafaelllanas/Desktop/GITHUB_WEB/beranuib.github.io/images/levadura.jpg)
 
 Las levaduras principalmente se dividiran en **secas** o **líquidas**.
 
-::: {.block}
+::: block
 Levaduras secas
 
 -   Más fáciles de utilizar. Se trata de esterilizar, abrir el sobre,
@@ -193,7 +197,7 @@ Levaduras secas
 -   Más fáciles de almacenar.
 :::
 
-::: {.block}
+::: block
 Levaduras líquidas
 
 -   El número de células vivas depende de la fecha de elaboración, por
@@ -208,7 +212,7 @@ Levaduras líquidas
 
 TIPOS DE LEVADURAS:
 
-::: {.block}
+::: block
 SACCHAROMYCES
 
 -   Cerevisae, usada en cervezas del tipo Ale.
@@ -221,7 +225,7 @@ SACCHAROMYCES
     necesiten unas DF muy bajas. Se comen la maltotriosa.
 :::
 
-::: {.block}
+::: block
 NO-SACCHAROMYCES
 
 -   Brettanomyces. RIESGO DE CONTAMINACIÓN DE EQUIPOS. No hay riesgo
@@ -235,9 +239,8 @@ NO-SACCHAROMYCES
 
 # Procesos
 
-## Procesos
-
-![Proceso a seguir](/Users/rafaelllanas/Desktop/GITHUB_WEB/beranuib.github.io/images/prova.png)
+![Proceso a
+seguir](/Users/rafaelllanas/Desktop/GITHUB_WEB/beranuib.github.io/images/prova.png)
 :::
 
 ## Elección del Estilo
@@ -256,7 +259,8 @@ Elección del estilo Deberemos tener claro qué estilo deseamos elaborar,
 teniendo claro que los ingredientes sean accesibles, que la receta esté
 a la medida de nuestras capacidades y, sobre todo, que nos guste. Para
 aprender más sobre los estilos es interesante conocer la guía de BJCP.\
-[Guía de BJCP](https://www.thebeertimes.com/wp-content/uploads/2017/08/2015_Guidelines_Beer_Espa%C3%B1ol-final.pdf)
+[Guía de
+BJCP](https://www.thebeertimes.com/wp-content/uploads/2017/08/2015_Guidelines_Beer_Espa%C3%B1ol-final.pdf)
 
 ## Compra de ingredientes
 
@@ -273,7 +277,7 @@ dirigirnos a:
     que recurrir a tablas de equivalencias (maltas, lúpulos o
     levaduras).
 
-    ::: {.center}
+    ::: center
     -   $\bullet$ [Masmalta](https://www.masmalta.com/es/)
 
     -   $\bullet$ [El secreto de la
@@ -289,8 +293,8 @@ dirigirnos a:
 
 ## Molienda
 
-El objetivo de moler la malta es prepararla para poder
-conseguir la máxima obtención de azúcares y demás sustancias solubles.\
+El objetivo de moler la malta es prepararla para poder conseguir la
+máxima obtención de azúcares y demás sustancias solubles.\
 Teóricamente el grano debería aplastarse en lugar de romperse, lo cual
 es más fácil de conseguir con molinos de rodillos que con los del tipo
 "corona".\
@@ -301,12 +305,12 @@ el día de antes.
 
 ## Macerado
 
-La maceración será la etapa en que introduciremos el
-grano molido en agua caliente para que mediante la infusión se activen
-las enzimas que sean capaces de convertir la reserva de energía del
-grano, almidón, en azúcares fermentables.
+La maceración será la etapa en que introduciremos el grano molido en
+agua caliente para que mediante la infusión se activen las enzimas que
+sean capaces de convertir la reserva de energía del grano, almidón, en
+azúcares fermentables.
 
-::: {.block}
+::: block
 Tipos de maceración
 
 -   **Infusión simple:** La temperatura se mantiene constante durante
@@ -322,10 +326,10 @@ Tipos de maceración
 
 ## Macerado
 
-El rango de temperaturas más habitual para macerar va
-de 65 a 68ºC y la duración es de 1 hora.
+El rango de temperaturas más habitual para macerar va de 65 a 68ºC y la
+duración es de 1 hora.
 
-::: {.block}
+::: block
 Diferentes etapas o descansos en la maceración
 
 -   **Hidratación:** Entre 30 y 52ºC, servirá para bjar el pH de la
@@ -340,15 +344,15 @@ Diferentes etapas o descansos en la maceración
 -   **Formación de dextrinas:** Entre 67 y 72ºC, la $\alpha$-amylasa
     crea azúcares más grandes y no tan fermentables.
 
--   ***Mash-out*:** Entre 74 y 77ºC, nos servirá para la desactivar las
-    enzimas.
+-   ***Mash-out*****:** Entre 74 y 77ºC, nos servirá para la desactivar
+    las enzimas.
 
 ## Lavado
 
 El rango de temperaturas más habitual para lavar va de 74 a 77ºC y se ha
 de hacer lentamente.
 
-::: {.block}
+::: block
 Tipos de lavado
 
 -   **Lavado continuo:** Es el método más utilizado y el más eficiente.
@@ -397,9 +401,8 @@ Existen muchas maneras de enfriarlo...pero las más eficientes son:
 
 ## Fermentación
 
-La fermentación es el proceso más importante de
-todos, es en él cuando se transformará el mosto que hemos elaborado en
-cerveza.
+La fermentación es el proceso más importante de todos, es en él cuando
+se transformará el mosto que hemos elaborado en cerveza.
 
 -   Deberemos inocular la cantidad adecuada de levadura, demasiada puede
     producir sabores no deseados y poca puede llevar a una fermentación
@@ -424,8 +427,9 @@ ACERCA DE LA DENSIDAD:
     seguir la fermentación a distancia. Por ejemplo: Tilt, iSpindel,
     etc...
 :::
+
 El fermentador deberá disponer de un grifo y un borboteador (airlock).
-     
+
 Necesitaremos conocer la densidad en varios momentos de la fementación.
 
 ## Trasiego
@@ -447,36 +451,37 @@ de...\
 
 ## Carbonatación
 
-Una vez embotellada la cerveza, ésta deberá
-fermentar por segunda vez pero ya dentro de la botella y sin posibilidad
-de que escape el $CO_2$ que se producirá en la fermentación secundaria.\
+Una vez embotellada la cerveza, ésta deberá fermentar por segunda vez
+pero ya dentro de la botella y sin posibilidad de que escape el $CO_2$
+que se producirá en la fermentación secundaria.\
 Se puede utilizar para esta fermentación: Dextrosa, Azúcar o Extracto de
 Malta.\
 Hay que tener cuidado, una sobrecarbonatación puede hacer que las
 botellas exploten. No es un mito.\
 Para calcular la cantidad de "azúcar" que hay que añadir utilizaremos
 una calculadora de Internet, por ejemplo...\
-[Calculadora de Carbonatación](http://www.cerveceros-caseros.com/index.php/calculadora-acce/carbonatacion)\
+[Calculadora de
+Carbonatación](http://www.cerveceros-caseros.com/index.php/calculadora-acce/carbonatacion)\
 Existen diferentes métodos para añadir azúcares al mosto, se puede meter
 todo en el fermentador o individualmente en cada botella.\
 Los métodos de carbonatar barriles o cornis son diferentes...
 
-Práctica de carbonatación Ejemplo de cómo podemos llevar a la
-práctica el proceso.\
+Práctica de carbonatación Ejemplo de cómo podemos llevar a la práctica
+el proceso.\
 Suponemos los siguientes datos: [image]{.image}\
 En un vaso de precipitación ponemos los gramos de dextrosa indicado y
 completamos hasta 500 ml de agua. Disolvemos la dextrosa y la llevamos a
 hervir unos dos o tres minutos. Mientras lavamos las botellas y las
 ponemos a escurrir.\
 
-::: {.footnotesize}
+::: footnotesize
 $$\binom{151 g.l \longrightarrow 500 ml}{7,6 g  \longrightarrow  x} \Rightarrow x= \frac{500 ml * 7,6 {g}}{151{g}l} = 25,16 \frac{ml}{l}$$
 :::
 
 Por lo que si estamos embotellando en botellas de 33cl, deberemos
 introducir en cada una de ellas:\
 
-::: {.footnotesize}
+::: footnotesize
 $$\frac{25,16 ml}{3} = 8,4 ml \hspace{1cm}$$
 :::
 
@@ -484,18 +489,21 @@ Llenamos la botella, agitamos y chapamos.
 :::
 
 ## Chapado
-     
-Para cerrar las botellas necesitaremos una chapadora y chapas, que pueden ser de 26mm o de 29mm si se trata de botellas de cava.
-     
-Es muy importante la limpieza de las botellas, para ello se pueden utilizar dispositivos específicos.
+
+Para cerrar las botellas necesitaremos una chapadora y chapas, que
+pueden ser de 26mm o de 29mm si se trata de botellas de cava.
+
+Es muy importante la limpieza de las botellas, para ello se pueden
+utilizar dispositivos específicos.
 :::
 
 ## Etiquetado
 
-Debemos tener en cuenta que las etiquetas se deberán
-imprimir SIEMPRE en una impresora láser (no de chorro de tinta) y para
-pegarlas a la botella podemos utilizar leche entera.\
-![Ejemplo de etiqueta](/Users/rafaelllanas/Desktop/GITHUB_WEB/beranuib.github.io/images/etiqueta.png)
+Debemos tener en cuenta que las etiquetas se deberán imprimir SIEMPRE en
+una impresora láser (no de chorro de tinta) y para pegarlas a la botella
+podemos utilizar leche entera.\
+![Ejemplo de
+etiqueta](/Users/rafaelllanas/Desktop/GITHUB_WEB/beranuib.github.io/images/etiqueta.jpg)
 
 ## Cata
 
@@ -507,11 +515,11 @@ recomendación sería cumplimentar la del BJCP.\
 
 ## Higiene
 
-::: {.frame}
+::: frame
 ApéndiceHigiene Primero, y antes que nada, deberemos limpiar con agua y
 jabón para depués desinfectar. Para ello tendremos:
 
-::: {.block}
+::: block
 **Star San (Chemipro San):**
 
 -   Mayormente es ácido fosfórico, también utilizado para bajar el pH.
@@ -523,7 +531,7 @@ jabón para depués desinfectar. Para ello tendremos:
 -   No es necesario enjuagar.
 :::
 
-::: {.block}
+::: block
 **Chemipro:**
 
 -   Se trata de percarbonato sódico.
@@ -538,7 +546,7 @@ jabón para depués desinfectar. Para ello tendremos:
 
 ## Defectos en la cerveza
 
-::: {.multicols}
+::: multicols
 **Acetaldehído**: Manzanas verdes frescas recién cortadas.
 
 -   Asegurar una fermentación vigorosa.
@@ -630,7 +638,6 @@ quemado.
 
 -   Verifique fuentes de oxidación (las aceto-bacterias son aeróbicas)
 :::
-
 
 # Información adicional
 
