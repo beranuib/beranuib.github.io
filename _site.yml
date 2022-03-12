@@ -11,6 +11,8 @@ navbar:
       href: charla.html
     - text: "Presentación"
       href: presentacion.html
+    - text: "Relats Curts"
+      href: Relats-Curts.html
 output:
   html_document:
     theme: united
