@@ -3,3 +3,10 @@ title: "About This Website"
 ---
 
 Hola a todos...si es que hay alguien, pues tengo la impresión de la botella lanzada a la inmensidad del océano que no 
+sé si alguien encontrará algún día en una playa lejana y abandonada o se unirá a esas islas de plástico que llenan el 
+Océano Atlántico y ahí quedará olvidada.
+
+El caso es que si de algo me pudiese vanagloriar, y lo escribo en "dubitativo" es de ser el creador de la Teoría de la 
+Irrelatividad".
+
+![El genio](/Users/rafaelllanas/Desktop/GITHUB_WEB/beranuib.github.io/images/einstein.png)

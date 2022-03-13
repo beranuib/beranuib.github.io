@@ -3,9 +3,7 @@ output_dir: "."
 navbar:
   title: "My Website"
   left:
-    - text: "Home"
-      href: index.html
-    - text: "About"
+    - text: "About Me"
       href: about.html
     - text: "Xerrada Beranui"
       href: charla.html
